@@ -62,7 +62,7 @@ function Footer() {
           <div className="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
             <Link to={'/'} className='flex'>
               <div className="flex ">
-                <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>Trend-Wave</h1>
+                <h2 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>Trend-Wave</h2>
               </div>
             </Link>
             <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4" style={{ color: mode === 'dark' ? 'white' : '' }}>© 2024 Trend-Wave —
