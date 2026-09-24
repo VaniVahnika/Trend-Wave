@@ -112,8 +112,8 @@ function Cart() {
               year: "numeric",
             }
           ),
-          email: JSON.parse(localStorage.getItem("user")).user.email,
-          userid: JSON.parse(localStorage.getItem("user")).user.uid,
+          email: JSON.parse(localStorage.getItem("user"))?.user?.email,
+          userid: JSON.parse(localStorage.getItem("user"))?.user?.uid,
           paymentId
         }
 

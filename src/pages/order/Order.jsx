@@ -10,7 +10,7 @@ function Order() {
   const [loading, setLoading] = useState(true); // Loading state
   const context = useContext(myContext);
   const { mode } = context;
-  const userid = JSON.parse(localStorage.getItem('user')).user.uid; // Get user ID
+  const userid = JSON.parse(localStorage.getItem('user'))?.user?.uid; // Get user ID
 
   // Function to fetch orders from Firestore
   const fetchOrders = async () => {
